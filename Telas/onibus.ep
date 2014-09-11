@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Untitled Page</Property><Property name="id">1410380605684_555</Property><Property name="width">949</Property><Property name="height">575</Property><Property name="dimBackground"/><Property name="transparentBackground"/><Property name="backgroundColor">#ffffff</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.WindowsXP.Widgets:Frame" id="6d1cb90d90364e889c4bc1cf2c341836" transform="matrix(1,0,0,1,5,-2)"><p:metadata><p:property name="box"><![CDATA[519,566]]></p:property><p:property name="withClose"><![CDATA[true]]></p:property><p:property name="withMax"><![CDATA[true]]></p:property><p:property name="withMin"><![CDATA[true]]></p:property><p:property name="withShadow"><![CDATA[false]]></p:property><p:property name="titleText"><![CDATA[Onibus]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textFont"><![CDATA[Trebuchet MS|bold|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[0,1]]></p:property><p:property name="withRoomForIcon"><![CDATA[false]]></p:property></p:metadata>
+            <defs>
+                <pattern patternUnits="userSpaceOnUse" x="0" y="0" width="1" height="29" p:name="titlePattern" id="938dab8ff1ca451fa5de6681f6b96c0f">
+                    <image image-rendering="optimizeQuality" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAdCAYAAABrAQZpAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gBEAohNhFyT2EAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAXklEQVQI123KsRHCMBAAwfuTRAW04z5cOjEhjB1AYMaW/CSEJBstzM90mq64HuDtDvJ+4dgOpO/ISCRPJETgDw0pgVCQUjFawaRiVDAu7ZejBmZPjLPj+CSyPDC2hS8XER5NU5DfKgAAAABJRU5ErkJggg==" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1" height="29"/>
+                </pattern>
+                <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAdCAYAAACXFC2jAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A                 /wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gBEAoOIhm0o3EAAAAZdEVYdENv                 bW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAABW0lEQVQoz3WSS0sDQRCEv+555Ama3ASPXrwK                 Qn6Fv88fqKAo+EpC1t3Z9rCzjyRrw8AyXdPVVbXCwyNnle5NxAHgh/dSbwwgXN8gixnLqfYAqTcm                 qyv8fEEVEkFlMOHnzuxije2/KKcKBRTlB8URRfkG8zW22/acforydGvM1s1FUfYHoDqgALw8wz4h                 xf5MkPL9zP8VULYhj1OkYGTCoGqdNB+TAATwLgMsgEZwAinCrwcc1IqiK4gBqmyLExA9obAJhHm2                 NDdNzndoghpeueOwiBEmmcK1WcRls2CcggikvAcCXkconIBvmphHsTmEzDQkNI9I60PtO2vxAi7m                 Bx7Ft80IVd9sf7l+h5AgOy3iUBFEQKmqjMv2dis4xAlKmY5EtK9H0+xSNUOqNA6wwURL1iqvj0GH                 guQ8zsqTLHa7Rol3kCClMAB87uASeH2H6JBO5mnFLNUMM/gDasVk7m2cE34AAAAASUVORK5CYII=                 " xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="29" p:name="cornerImage" id="984dd666a60b4df7af13241dbb566bfe"/>
+
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" p:name="closeButtonFill" id="3dc08d6a83a44bd097381a51861c6f87">
+                    <stop style="stop-color:#EFA390;stop-opacity:1" offset="0"/>
+                    <stop style="stop-color:#E03802;stop-opacity:1" offset="1"/>
+                </linearGradient>
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" p:name="otherButtonFill" id="1725420fc7594ecfb85521ae1d8ea74e">
+                    <stop style="stop-color:#9AB7FA;stop-opacity:1" offset="0"/>
+                    <stop style="stop-color:#0045D3;stop-opacity:1" offset="1"/>
+                </linearGradient>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="shadingFilter" id="d3af62c0a90a4a6d8d48ff464e326cfd">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <rect x="0" y="5" width="519" height="561" transform="translate(2, 2)" p:filter="url(#d3af62c0a90a4a6d8d48ff464e326cfd)" style="stroke: none; opacity: 0.6; fill-opacity: 1; fill: rgb(0, 0, 0); visibility: hidden; display: none;" p:name="bgRect" id="b3b8b005c3114230a8b44110b4ba3f8d"/>
+            <rect x="1.5" y="25.5" style="fill: #ECE9D8; stroke: #0055E5; stroke-width: 3px;" p:name="bodyRect" id="96998e713ade4bbc92420333ed921a94" width="516" height="539"/>
+            <use xlink:href="#984dd666a60b4df7af13241dbb566bfe" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"/>
+            <rect x="8" y="0" width="503" height="29" style="stroke: none; fill: url(#938dab8ff1ca451fa5de6681f6b96c0f);" p:name="titleRect" id="84e10dbd79b845e9a5602709238894fe"/>
+            <use xlink:href="#984dd666a60b4df7af13241dbb566bfe" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" transform="translate(519,0) scale(-1, 1)" p:name="titleCorner" id="fcfdd2b6db6c44239d68f486eee943f6"/>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: bold; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(10, 24, 131); font-family: Trebuchet MS; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="shadowText" id="c54d1f5d83c048509c34389f47f73700" transform="translate(-20,-2)">Onibus</text>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: bold; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(255, 255, 255); font-family: Trebuchet MS; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="e1b6d9f345814350a51bc6342e2cf78b" transform="translate(-21,-3)">Onibus</text>
+            <g p:name="closeButton" id="70f98a2841624a99881b1ae5e1216e5e" transform="translate(492,0)" style="visibility: visible;">
+                <rect x="0.5" y="5.5" width="20" height="20" rx="2" ry="2" style="stroke: #ffffff; stroke-width: 1px; fill: url(#3dc08d6a83a44bd097381a51861c6f87);"/>
+                <path d="M 6,11 L 15,20" style="stroke: #ffffff; stroke-width: 2px; fill: none;"/>
+                <path d="M 6,20 L 15,11" style="stroke: #ffffff; stroke-width: 2px; fill: none;"/>
+            </g>
+            <g p:name="maxButton" id="d2d8451c3b794d60abe86d015ad88b44" transform="translate(469,0)" style="visibility: visible;">
+                <rect x="0.5" y="5.5" width="20" height="20" rx="2" ry="2" style="stroke: #ffffff; stroke-width: 1px; fill: url(#1725420fc7594ecfb85521ae1d8ea74e);"/>
+                <rect x="0" y="0" width="10" height="10" transform="translate(5.5, 10.5)" style="stroke: #ffffff; stroke-width: 1px; fill: none;"/>
+                <path d="M 0,1.5 L 10,1.5" transform="translate(5.5, 10.5)" style="stroke: #ffffff; stroke-width: 2px; fill: none;"/>
+            </g>
+            <g p:name="minButton" id="436a2478d0a44a02b5f6bf59ee0d9142" transform="translate(446,0)" style="visibility: visible;">
+                <rect x="0.5" y="5.5" width="20" height="20" rx="2" ry="2" style="stroke: #ffffff; stroke-width: 1px; fill: url(#1725420fc7594ecfb85521ae1d8ea74e);"/>
+                <path d="M 0,1.5 L 9,1.5" transform="translate(5, 19)" style="stroke: #ffffff; stroke-width: 3px; fill: none;"/>
+            </g>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="baa096b0a1e94bfdbb9def081fa03b3f" transform="matrix(1,0,0,1,16,88)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="727f1687ce424e39a1bb9a4befac674e">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="3675c1720f4c43ca8a2814d1ff46d0c1"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="baa0e4c727ad43d68b60f1b4bb0c38e9"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="433502554d5b474d9d36ac7ba2086e06"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#727f1687ce424e39a1bb9a4befac674e&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="1493a8a284564e4691f905dcef233c6a"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="7a888ea5ed7b4097a2a237ee701284b5" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="341a002a7e4241a29860310b39e015c5" transform="matrix(1,0,0,1,16,127)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="56e5389b3f864a53978a0731cba71c82">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="42f25f1a09a34d268c02379be1840df9"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="5f04e817314f43dc9b24fce9822f5340"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="153444915dbe40b79f683883d401dd41"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#56e5389b3f864a53978a0731cba71c82) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="ebaf964cc605480b8e5d3fb1e89cc2d7"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="8e4a7ae2805d4b85a70e5c7a738d1ef0" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="0bb446c260da497b842d7ad38b11500b" transform="matrix(1,0,0,1,15,492)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="640ac224c98b46d7ba94a6e031f36659">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="244658f3de2f4ea398995629b8e40fa5"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="601157f933374d76859f76f8b5aa3f6b"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="eef25ea120ef44a3b6e9f74b6656d92a"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#640ac224c98b46d7ba94a6e031f36659) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="6278682373544ca6b8c1edb59a8122e0"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="4253168e33454427bacf1c1732c22488" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="387b26160e454150a55ff23c628ba82e" transform="matrix(1,0,0,1,15,451)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="5854bd8e2f584113b3233c219cd3f022">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="8334467c152d4c08a58ce021b30f9c15"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="c9a2b8d17787476bbea6a3498c39f8da"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="b9c2207f339f4a389706acc0c2adbe57"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#5854bd8e2f584113b3233c219cd3f022) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="49e7e011f09b41b29406c36c3b85f67f"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="241ca1ed05ed466baba3367763e1593b" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="362599eb37064275a80f81f14bdff73c" transform="matrix(1,0,0,1,15,410)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="88b46f6a85ee422391b3a81fa005e8fa">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="03383a9c315447f99e48e9bae3327223"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="327d3240adb64460a92222cbebc18e43"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="b4cf912cae294f6d8659b4f6ce345158"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#88b46f6a85ee422391b3a81fa005e8fa) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="4425971b3a494b5383a5fdcc7b254837"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="cb077bbc98b84cd5827cf5710d8b3bff" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="35f2b350198b4a7eac034752e195e91d" transform="matrix(1,0,0,1,15,370)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="0d5891eb0bb243ffab1e46c5b5977de0">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="264268a8ae3f433e985b1945aff02cbb"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="336fbd7867734f5e843681c31a603aed"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="9d5048e1bc8f42edb7dd5bddcdc338a1"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#0d5891eb0bb243ffab1e46c5b5977de0) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="c0371991acde45a88849cf98b9234508"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="1ab3d088179c462b962448d0971339c2" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="c966c6fa3826467e9119c1bccedfaed3" transform="matrix(1,0,0,1,15,329)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="5f741acac1b144878df4b62b15d6db53">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="9a111ba0945542bd94d5f0ef07e4e659"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="21f466af654d486aa85e982056d54e0c"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="33de0eec84c34e4b91e5efa5ff62d41c"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#5f741acac1b144878df4b62b15d6db53) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="791d7f0e869e4ef8b072cc0ed28da334"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="694fb27c4bc84ede9a4be889e8ac1ca9" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="a02ecb81d5de47c48f2fa4679c77e672" transform="matrix(1,0,0,1,15,288)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="fdf24779cf204507b0db42577820f098">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="917d023d227a4d0c9d70d4c11e07be43"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="8fbea947ce954734b215852d813749c6"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="e4b6d6832aac4ed7b40756a4b1adce87"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#fdf24779cf204507b0db42577820f098) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="39972ed80a964cd8bce9de0e4c0c99d4"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="ba88dfa3100c4d47a666846e13a78ea1" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="3404e5e4203e4a6fbfb2b6672d430ae2" transform="matrix(1,0,0,1,15,247)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="38a0da5aa99a4d8b980b1c1e10acf2cf">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="521d274b021f4f4fb94569c1fd751e28"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="1757624bb7dd46878314627822e322b5"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="23f7aaf9ba6945ffa8f2760f055482f3"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#38a0da5aa99a4d8b980b1c1e10acf2cf) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="0cd65db97c3f49a2aa7e8b59c52c5ec2"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="9e979fa2b8b24e49abf193dc491344ca" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="9e7aa38d3755421fa93bd1f250498461" transform="matrix(1,0,0,1,15,207)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="7340cea6cec049ce90316141b1354c77">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="13e6c9990cb443e0a46c568bf4e575c8"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="dee4a0afe069478e97e669309eac12ab"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="61d12d7a232849e780af0198aaadd081"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#7340cea6cec049ce90316141b1354c77) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="6b46a712607143ba872108d988cf13f4"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="689e394c8df04a11974e95e476f7537f" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="705100069a714cbd9d1fe3285ed8ac55" transform="matrix(1,0,0,1,16,167)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="24b1c4017e9b44e5a136896084e09ead">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="56afffe9f1b545d580254618ae4d5bf9"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="92a8cffd51a8452382bad8629bbaeaf5"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="f05c1a342b7c410fa04d79677a4644ac"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#24b1c4017e9b44e5a136896084e09ead) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="8dedb1983d7e41b38713419ffd095a18"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="dbd993d7b495422f918da8a264f9eb81" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:ComboBox" id="2d1ec66d0b0a45e2bf1b1fb3f934c800" transform="matrix(1,0,0,1,38,56)"><p:metadata><p:property name="box"><![CDATA[207,25]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="text"><![CDATA[Combo Box]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[0,1]]></p:property></p:metadata>
+              <defs p:name="defs2659" id="0b207379bc0e4837ad62224d2b65c584">
+                <linearGradient p:name="linearGradient31435" id="e7dbbaa6620d45599b78944990000955">
+                  <stop style="stop-color:#bab4a7;stop-opacity:1" offset="0" p:name="stop31437" id="551231032a764f95bebea0d59ae71e63"/>
+                  <stop style="stop-color:#bab4a8;stop-opacity:1" offset="30%" p:name="stop31439" id="5d3d619aecd24b5db2832cdb666415c4"/>
+                  <stop style="stop-color:#d6cec0;stop-opacity:1" offset="100%" p:name="stop31441" id="f7ebcebc6eea4aeabf6e123da9bf71e2"/>
+                </linearGradient>
+                <linearGradient p:name="linearGradient2237" id="55f29892ec6248c2ab9c6677432b5f28">
+                  <stop style="stop-color:#0080c3;stop-opacity:1" offset="0" p:name="stop2239" id="fed8bf70e5fc492391e2c3b2b4c20f5c"/>
+                  <stop style="stop-color:#28a2e1;stop-opacity:1" offset="0.57124019" p:name="stop2268" id="ccab29793a534219aa62a80a346fc994"/>
+                  <stop style="stop-color:#3cb3f0;stop-opacity:1" offset="0.74453777" p:name="stop2270" id="236d3ad682144e5594f850369804374b"/>
+                  <stop style="stop-color:#51c4ff;stop-opacity:1" offset="1" p:name="stop2241" id="45e72628bbf246c4900d187f6580da9c"/>
+                </linearGradient>
+                <linearGradient x1="439.5" y1="104" x2="439.5" y2="88" xlink:href="#55f29892ec6248c2ab9c6677432b5f28" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-381.00001,-85.899192)" p:name="linearGradient57450" id="866ed673a32044dfaf96f5faff6c574e"/>
+                <linearGradient p:name="linearGradient27481" id="26c94b0d1f6c48a8be80ae838017a255">
+                  <stop style="stop-color:#f6f4ef;stop-opacity:1" offset="0" p:name="stop27483" id="f41596fb10274a7cad1b946f2c967acb"/>
+                  <stop style="stop-color:#eae7df;stop-opacity:1" offset="0.30131003" p:name="stop27489" id="5c8cc18fee2240e0bceee03da0da31ff"/>
+                  <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="1" p:name="stop27485" id="d74a6523ff1c4859af6dea280f1a9763"/>
+                </linearGradient>
+                <linearGradient x1="198" y1="118" x2="198" y2="93" xlink:href="#26c94b0d1f6c48a8be80ae838017a255" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16.00949,-92.954482)" p:name="linearGradient38337" id="5f6d1c74c0b74402b703f0962d908f81"/>
+              </defs>
+              <rect style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="206" height="24" x="0.5" y="0.5" rx="3" ry="3" p:name="rect" id="20dca91144de4e9daf3a4a5110b1d90e"/>
+              <path d="M 182.5,0.54551944 L 182.5,24.5 L 203.5,24.5 C 206,24.5 207.5,23 207.5,21.5 L 207.5,3.5455196 C 207.5,1.8835196 206,0.54551944 203.5,0.54551944 L 182.5,0.54551944 z " style="color:#000000;fill:url(#5f6d1c74c0b74402b703f0962d908f81);fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="dropDownButton" id="8d2226360ca54af69c6a3fa29ee4245a"/>
+              <path d="M 182,1.3360847 L 3.4959684,1.3360847 C 2.0817584,1.2771647 1.1978687,2.5825147 1.3746487,3.9378047 L 1.3746487,23.3" style="opacity: 0.273632; fill: none; fill-rule: evenodd; stroke: rgb(109, 109, 109); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; visibility: visible;" p:name="path" id="7624a823468447289426a9092a2ac97d"/>
+              <text xml:space="preserve" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" x="4.5048509" y="14.894419" p:name="text" id="b37f9bfb304841118196bde5921292a2" transform="translate(2,-2)">Combo Box</text>
+              <path d="M 191,11 L 195,15.5 L 199,11" style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="marker" id="e5386c6ae42c4599ad8e982ea4c53e4e"/>
+             </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:ComboBox" id="88be3dc135e441478a13cfdd31ce9865" transform="matrix(1,0,0,1,257,56)"><p:metadata><p:property name="box"><![CDATA[109,25]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="text"><![CDATA[Combo Box]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[0,1]]></p:property></p:metadata>
+              <defs p:name="defs2659" id="c653da0c278f4a29b18ddb817796505e">
+                <linearGradient p:name="linearGradient31435" id="1fb93a662d6d4e91b48329cd85a9daa9">
+                  <stop style="stop-color:#bab4a7;stop-opacity:1" offset="0" p:name="stop31437" id="75709effdb3e473683e22dc94146a689"/>
+                  <stop style="stop-color:#bab4a8;stop-opacity:1" offset="30%" p:name="stop31439" id="628059ea8b774be5b4e376e6c973026d"/>
+                  <stop style="stop-color:#d6cec0;stop-opacity:1" offset="100%" p:name="stop31441" id="938d122775b94b02a3094dec2eca2379"/>
+                </linearGradient>
+                <linearGradient p:name="linearGradient2237" id="708686ce2f35430fb1ecebf3d4f53751">
+                  <stop style="stop-color:#0080c3;stop-opacity:1" offset="0" p:name="stop2239" id="46e73321b8b943cbb6340caf7aea0b4c"/>
+                  <stop style="stop-color:#28a2e1;stop-opacity:1" offset="0.57124019" p:name="stop2268" id="7fc017a99dd148cea05529881ec07815"/>
+                  <stop style="stop-color:#3cb3f0;stop-opacity:1" offset="0.74453777" p:name="stop2270" id="eb444c15edb64ef29b2b9f99653f4272"/>
+                  <stop style="stop-color:#51c4ff;stop-opacity:1" offset="1" p:name="stop2241" id="ccee5724019a484491d7ef20333bbeb1"/>
+                </linearGradient>
+                <linearGradient x1="439.5" y1="104" x2="439.5" y2="88" xlink:href="#708686ce2f35430fb1ecebf3d4f53751" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-381.00001,-85.899192)" p:name="linearGradient57450" id="09b37c0a55e64b418674a910433f4acf"/>
+                <linearGradient p:name="linearGradient27481" id="36e5dfab79614b4699f7879be8e70fb8">
+                  <stop style="stop-color:#f6f4ef;stop-opacity:1" offset="0" p:name="stop27483" id="644e9f4bf8d949a8ae4893da472e167c"/>
+                  <stop style="stop-color:#eae7df;stop-opacity:1" offset="0.30131003" p:name="stop27489" id="a2f4be3c63b343119b07dcca1c4e0783"/>
+                  <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="1" p:name="stop27485" id="7bd3cc0ebc244ee0bbcfbcf088cf6f69"/>
+                </linearGradient>
+                <linearGradient x1="198" y1="118" x2="198" y2="93" xlink:href="#36e5dfab79614b4699f7879be8e70fb8" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16.00949,-92.954482)" p:name="linearGradient38337" id="62284973d29f459db21e5118813e0527"/>
+              </defs>
+              <rect style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="108" height="24" x="0.5" y="0.5" rx="3" ry="3" p:name="rect" id="3b5b7c3a92194aa4917ac1b1ef2f3b87"/>
+              <path d="M 84.5,0.54551944 L 84.5,24.5 L 105.5,24.5 C 108,24.5 109.5,23 109.5,21.5 L 109.5,3.5455196 C 109.5,1.8835196 108,0.54551944 105.5,0.54551944 L 84.5,0.54551944 z " style="color:#000000;fill:url(#62284973d29f459db21e5118813e0527);fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="dropDownButton" id="30e23ed8f2eb448fb9f466d30e7c661b"/>
+              <path d="M 84,1.3360847 L 3.4959684,1.3360847 C 2.0817584,1.2771647 1.1978687,2.5825147 1.3746487,3.9378047 L 1.3746487,23.3" style="opacity: 0.273632; fill: none; fill-rule: evenodd; stroke: rgb(109, 109, 109); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; visibility: visible;" p:name="path" id="4c6bc00075804c10b9d8f60c9439dc8f"/>
+              <text xml:space="preserve" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" x="4.5048509" y="14.894419" p:name="text" id="b68477852c4040948f02245e7037304e" transform="translate(2,-2)">Combo Box</text>
+              <path d="M 93,11 L 97,15.5 L 101,11" style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="marker" id="21cea5d61c494d5bb3560d5524134115"/>
+             </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:ComboBox" id="c240a66a49d24501a8c55c1890076bfb" transform="matrix(1,0,0,1,379,56)"><p:metadata><p:property name="box"><![CDATA[109,25]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="text"><![CDATA[Combo Box]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[0,1]]></p:property></p:metadata>
+              <defs p:name="defs2659" id="c7d9af91e9274e2e9bbe38a3fc1f83ca">
+                <linearGradient p:name="linearGradient31435" id="239cac0624fc463cb59b3394a79d2883">
+                  <stop style="stop-color:#bab4a7;stop-opacity:1" offset="0" p:name="stop31437" id="be79fec6c2ea4b1ebb460a2fa9e84557"/>
+                  <stop style="stop-color:#bab4a8;stop-opacity:1" offset="30%" p:name="stop31439" id="59093d8ca0eb46feb3f4f1e4b80afe61"/>
+                  <stop style="stop-color:#d6cec0;stop-opacity:1" offset="100%" p:name="stop31441" id="bd957ea1498946d79ced34aaedb0eff6"/>
+                </linearGradient>
+                <linearGradient p:name="linearGradient2237" id="fbf55e1ae7ec40eb9b84505ffc679a8e">
+                  <stop style="stop-color:#0080c3;stop-opacity:1" offset="0" p:name="stop2239" id="a8fd3224f0c54beda666dd734cd07526"/>
+                  <stop style="stop-color:#28a2e1;stop-opacity:1" offset="0.57124019" p:name="stop2268" id="bd549f8da9444d6e8512747868cfa490"/>
+                  <stop style="stop-color:#3cb3f0;stop-opacity:1" offset="0.74453777" p:name="stop2270" id="0c459c9d60b8444a9f90a32c23f95161"/>
+                  <stop style="stop-color:#51c4ff;stop-opacity:1" offset="1" p:name="stop2241" id="299385fa08e240be9eb0e94f09af63d0"/>
+                </linearGradient>
+                <linearGradient x1="439.5" y1="104" x2="439.5" y2="88" xlink:href="#fbf55e1ae7ec40eb9b84505ffc679a8e" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-381.00001,-85.899192)" p:name="linearGradient57450" id="fd2f6263955d432b9a6029e409afe70d"/>
+                <linearGradient p:name="linearGradient27481" id="f5309f71dcbc4757b7115f317514943b">
+                  <stop style="stop-color:#f6f4ef;stop-opacity:1" offset="0" p:name="stop27483" id="18b3b60d26214103aa4f7cd42c719f7f"/>
+                  <stop style="stop-color:#eae7df;stop-opacity:1" offset="0.30131003" p:name="stop27489" id="9942c05c693e4978962368c2698d8968"/>
+                  <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="1" p:name="stop27485" id="9d2a93cf51264384b96b8652720fd18e"/>
+                </linearGradient>
+                <linearGradient x1="198" y1="118" x2="198" y2="93" xlink:href="#f5309f71dcbc4757b7115f317514943b" xmlns:xlink="http://www.w3.org/1999/xlink" gradientUnits="userSpaceOnUse" gradientTransform="translate(-16.00949,-92.954482)" p:name="linearGradient38337" id="3ec1749528af4c78b0129ed41938c0f9"/>
+              </defs>
+              <rect style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="108" height="24" x="0.5" y="0.5" rx="3" ry="3" p:name="rect" id="9d50de1cbb84423a851744d62ba90f3a"/>
+              <path d="M 84.5,0.54551944 L 84.5,24.5 L 105.5,24.5 C 108,24.5 109.5,23 109.5,21.5 L 109.5,3.5455196 C 109.5,1.8835196 108,0.54551944 105.5,0.54551944 L 84.5,0.54551944 z " style="color:#000000;fill:url(#3ec1749528af4c78b0129ed41938c0f9);fill-opacity:1;fill-rule:nonzero;stroke:#a19685;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="dropDownButton" id="a76a11edd45e43ebbc5abe564e4a20ec"/>
+              <path d="M 84,1.3360847 L 3.4959684,1.3360847 C 2.0817584,1.2771647 1.1978687,2.5825147 1.3746487,3.9378047 L 1.3746487,23.3" style="opacity: 0.273632; fill: none; fill-rule: evenodd; stroke: rgb(109, 109, 109); stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; visibility: visible;" p:name="path" id="9af249b766db4821aae1f8b967a09a71"/>
+              <text xml:space="preserve" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" x="4.5048509" y="14.894419" p:name="text" id="986d9ddb72b94d21a47f616db7947f9f" transform="translate(2,-2)">Combo Box</text>
+              <path d="M 93,11 L 97,15.5 L 101,11" style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" p:name="marker" id="0d22e5d11b084b79b4739bce8017a950"/>
+             </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Label" id="41ea1b30d2534e95b150b9ad26ab08b4" transform="matrix(1,0,0,1,38,33)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Motorista:]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property></p:metadata>
+              <text y="9.0077095" x="17.999992" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="2f6ecbc17b0446d9b9e5a389e19d299d" transform="translate(-16,-3)">Motorista:</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Label" id="5c5c1a57ee014e368cb76802edb32a8f" transform="matrix(1,0,0,1,257,33)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Cidade Origem:]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property></p:metadata>
+              <text y="9.0077095" x="17.999992" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="d0cc0f7ece8b479387e3e752e136acbf" transform="translate(-16,-3)">Cidade Origem:</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Label" id="fbfc43d5d79b47b88d83b7d13740e744" transform="matrix(1,0,0,1,379,33)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Cidade Destino:]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property></p:metadata>
+              <text y="9.0077095" x="17.999992" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="ac5fe8f22aec4486a68a7c6bad46ce92" transform="translate(-16,-3)">Cidade Destino:</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="fcce579efc4648e7aafc9fd35c04758c" transform="matrix(1,0,0,1,81,90)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="1700aca3e0ae4a8988e09e34be119f79">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="03e674b88a6b4547afa96a5616683518"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="51057451bfca49dcb444fbdcebea1001"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="72af6f09d7b2454ca9232ffe937f0b99"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#1700aca3e0ae4a8988e09e34be119f79) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="90e7408008b74a24925eecead92443a2"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="c3e9b8cb621542d7a18e5c6451367d3a" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="797607f2b29d4708942069510d46ec3a" transform="matrix(1,0,0,1,81,129)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="8fbf0501361949349bbf28534e3a2a01">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="396abd905dca4631b0d6af509dddc7ec"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="4eb3438c37024a8fb8ee2fb4b807b8de"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="cc647baec8914aa9bebdcb64518a2b4f"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#8fbf0501361949349bbf28534e3a2a01) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="fffcac5040bb4a70899431afffe3da32"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="7108fd8fab1a4b24a350e594d3c17c21" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="10b962e17bf84482b9a39219df687171" transform="matrix(1,0,0,1,80,209)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="613860e2222c4777ac1c3d6aa8c0ca43">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="5e13ce17a79f4845b46808f31932ee9a"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="2835e41451674561bf7a90dba86930fe"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="a20a1d2695844bb69a6877a659247be1"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#613860e2222c4777ac1c3d6aa8c0ca43) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="4ea9a2d290f6477ca91feed0753334f0"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="5cee5ccfcff44d9f9a6ce5860319af5a" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="1f69f4d48477429f9e5288338c579b57" transform="matrix(1,0,0,1,81,169)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="6505321280e04cf3a3019cedfce7bb96">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="c45de4b18cbc47bd9f8882d8b09a9f23"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="e67b2124841c4c798bd34e3bde57964d"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="cfefbabac9d44c92aa3e0167a61b3b6b"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#6505321280e04cf3a3019cedfce7bb96) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="2efb9536db1d4a378a128e0488025424"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="1f6d24c8dbdc4e3b80d5975f04209be8" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="417f6c15264344d2808610b53fb50f69" transform="matrix(1,0,0,1,80,249)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="4d540bac00774f759f89fde2cb36c63a">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="cbf077f31c584fb183ea2fd90f7228ea"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="9df5e266ed974a1aae9c16f49b14ab70"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="d64f97b595744d05bbb0c2da56cd7895"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#4d540bac00774f759f89fde2cb36c63a) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="5d7c8fa9811c46509509ac12cb2a3cba"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="49397713385b431c9cc4a73bc6b0818d" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="10dbdf3486dd4ac7b6f6c6f72f062c46" transform="matrix(1,0,0,1,80,290)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="1804ea9db75047cf8926dccf3e9744bf">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="18b51a205b64421b9c0644c98f2f84db"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="8e46ad5f8b5e4d49b836293ca47d7d6a"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="7ae5d83f62f244aa8a074783562ef59a"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#1804ea9db75047cf8926dccf3e9744bf) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="d84402b0c6d7440e87a637c68524c0c3"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="2e7faae03f644b708c0b851d943ad428" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="ad6bf67906014fe497368aece85d3317" transform="matrix(1,0,0,1,80,331)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="f43be0b6ecea43e681e86357f46d3627">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="4630887143a246918c1d8a15005c24c9"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="bbe5f2fc76b44a56be098659c68fbbb7"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="6f95397f893b4ea690766a1ee743dfd9"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#f43be0b6ecea43e681e86357f46d3627) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="1e2629db145d4ac1a0beed799cff2890"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="e16b681576054841bcee7ea7a51c9d85" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="f77ce9cd139d48e1b3ebbdcf0054b88e" transform="matrix(1,0,0,1,80,372)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="9db1e8f695dd46b6a9399a9cce332e16">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="094e0d5914474385ae254f2d6a3baf50"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="24af01af98cb4121934ba5c4c6b12152"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="de51b418987c416d81587ca5240681df"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#9db1e8f695dd46b6a9399a9cce332e16) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="a41a004f41d342099cb39cc91e4da61a"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="7da731751e074074aa6dbbd9e2679ca4" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="2a6a62e3027a414f8d59b0294f399496" transform="matrix(1,0,0,1,80,412)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="5929bc8b88674a39844d4d5b91cb6fd4">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="99aa76be2ead4669800cfb29bee4ab2c"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="e370705ce26d4ec9a16de6ea744612a3"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="083b90adce1e4cb39793675e49df8520"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#5929bc8b88674a39844d4d5b91cb6fd4) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="53899b16f8734446ae7aac1b47d185b4"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="59711dd703584b6eb0b855b76b8a93f6" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="a105bc36601348e087a8aa891a9ed810" transform="matrix(1,0,0,1,80,453)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="e1608b70a039460c84afcc16f96d4a92">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="5453bd77c5df4fe4a19eb1c0253fe391"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="b4254e4bed1548b1b023d5dee40e23c9"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="4fc3596466ce427fbb60c5f98e09bd43"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#e1608b70a039460c84afcc16f96d4a92) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="3362cf1a72504c399df56162d558f2bd"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="26d5f84cf4fa49f28a78616908149974" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="7c41c3613f614c7a816182c6ceedba8c" transform="matrix(1,0,0,1,80,494)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="390bfafc306c45ea8617d3946642f4cc">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="d4381e3214f6499fa59d92095839c6a1"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="b63e4ba79e4248248c26849eb7e58be3"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="0ddd830574724d3b9ed75c05959dc64b"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#390bfafc306c45ea8617d3946642f4cc) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="908ee3344794488da339513875c8fcf1"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="5829a131756c4b9e991eda061e900aae" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="167b5947ba354e73bbb5a3da20d6f3bf" transform="matrix(1,0,0,1,388,90)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="4b48323a57014b8694d0a32aa283d530">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="122b0a6d83874e8a98b85dcb59fe9d67"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="0acf73e5135141bd8f193be07ad6fc98"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="80b242b7dbf94c4b99558e0149dfe3f8"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#4b48323a57014b8694d0a32aa283d530) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="3040a90e55ad4fdcaefa2024b65f348f"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="065ea13981544d1db26e0a25040abe0d" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="135f4f61948a4326a15c9644e8e0a518" transform="matrix(1,0,0,1,388,129)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="d0875712e77f4b4a980298b6c891226a">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="75be5df46ae44cf59471e97fa142140b"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="f35c62682032457496a9083e45030727"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="03183dd1ed7c4f2e9f0f4d08a1120494"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#d0875712e77f4b4a980298b6c891226a) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="3ebdac6207b64879a1ea1140f03d8111"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="a45f932ed04940b69ab426a2e4d3ca10" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="349ead49ab01471293ef933337307e34" transform="matrix(1,0,0,1,387,209)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="4454209987984f1cb9a8d0dd37ad552c">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="8c463948cb1a4cc0a9814c46a87392ae"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="5b2b5c61aa654d81917babaf5cf23fef"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="b1f419bd7fc54257954a69f6621d4ff0"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#4454209987984f1cb9a8d0dd37ad552c) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="2ecdcb8f77d84a7da6aa2ac22f38c8c0"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="e259886c983d4e80bff4be8eff7d09d2" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="7372142a35b344c79d369352bdac5436" transform="matrix(1,0,0,1,388,169)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="5f9c615086844689bc6f7e486f9cd495">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="6fabea35014047f899bd7ae04c8ff839"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="66ed001ced6448e684280088d9d96da8"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="da95dca955be4cc5833620c396dcb1e7"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#5f9c615086844689bc6f7e486f9cd495) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="e03dbb045c494382bc1c577b1d8d2ce9"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="e0392b3a02434262a3aa7aacb92314ac" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="a82e5cab55944eb9a44ae66123b6324a" transform="matrix(1,0,0,1,387,249)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="3a131eed822940de880df5295ec84f86">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="70a9c5b66c84420f90d066e5cb25055c"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="73fa7069e40a4b78b9e37a091f577e10"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="47dbb08d1d5e4110b0abff665811e045"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#3a131eed822940de880df5295ec84f86) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="2b7d77651c7b49f6b9433af6480b424e"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="a5ae7fb4cee642e684177a9e0e7d169a" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="56e86e6924bb40528137be3b5ce1e862" transform="matrix(1,0,0,1,387,290)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="71b8f04da01f407e9e768ebd167879df">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="cb26e6278cf84373a5ca44bf599b74a5"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="f3f0dbf779c3483f89fc964d0307bf49"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="d17bd62f23d545cbb3ca7b316e5c69e9"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#71b8f04da01f407e9e768ebd167879df) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="cac42431b5ac4d4a96102045e938b12f"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="938430a236d9412ea2f9f819889ef6a5" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="7b583632f88d416988023627f1108665" transform="matrix(1,0,0,1,387,331)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="7116b39e01c94be1b0144f5462ae8a3b">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="bdc7aef5e88740a08a40b4ec207bbe6b"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="3c7805f8fc4d4992acdc1e02059cd9f4"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="8a5a6860ff0d4e43a65b08a2f94722de"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#7116b39e01c94be1b0144f5462ae8a3b) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="50b3cfbeac3d474c808c287ae4b31a61"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="aefff00e2022429c85ad7566517383ef" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="b6ebbd99ee614878ac3f1faee2c4c927" transform="matrix(1,0,0,1,387,372)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="38cd2461326840188e8373f318392083">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="d73c581d4f2c44eba935f105d4143ab2"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="23c3e750ef874fc39f807cc8bec5ba29"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="020ca1f79c084041822e45cc5f2daf0f"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#38cd2461326840188e8373f318392083) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="70774e4ae4014277bc99baeeebb6e68c"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="e35afa3a9a534bec8a7f575970118c7d" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="dcbc371949434b07b8b833a735464339" transform="matrix(1,0,0,1,387,412)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="0311f677a92a477984356c449a11dac0">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="7e075598f54d4dc68a88aa476847b08b"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="a2447f5ec59d4733ad5770a6767d0356"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="df69c7b4525344fcb5ab39a77253017d"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#0311f677a92a477984356c449a11dac0) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="6b8e3221bd654cc3b81919e7d6e989b5"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="6632ac4267324a3db890607fa53cc16e" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="ee970508d05b478ea5c133b0e9ae00bf" transform="matrix(1,0,0,1,387,452)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="a5fa80712e4d4bb39b348d15f3b35c03">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="499ca4d1b4764c81a1e63e5cf570a5b3"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="b423ef80fb0146e88293edd44a40f44f"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="ca9451416e284aaeb491e3c1a95e3674"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#a5fa80712e4d4bb39b348d15f3b35c03) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="b1ceae5e42eb422a970f74cbbbb45271"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="91f881f1d67045e9bf80786bd83c81ee" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="413f211ebb7c4bb5852a10c47c43da88" transform="matrix(1,0,0,1,387,493)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="0902eb1e4d534df89f2747161440ea21">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="cd366cf107bd4381836be26be4d2b9c4"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="9f4141ce9c184f9da546945705e71c5f"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="d1d2abe7037c439599e973169afebee7"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#0902eb1e4d534df89f2747161440ea21) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="9a4a66d13bec48f291926f802534fee8"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="0d6de9bef8244c70a3600a8138103727" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="239e358829aa4391b1d2406cd1dd57c8" transform="matrix(1,0,0,1,458,87)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="9da1fe5611c84026a2ba6876deccafd3">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="3a1bedae5407469fb99203b3d99a42f1"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="79055bf5c1824342b92755bc3bcc30e4"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="9960adf55fff4191891b7b1c3746f697"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#9da1fe5611c84026a2ba6876deccafd3) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="6701fe1ab2c140f5896f1d0eb8cb21b0"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="75eb1b85b05344ef85a18f40246f4c17" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="81fca211bde2420e92b240aa941ef9dd" transform="matrix(1,0,0,1,458,126)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="2ffe701c5544414ea0d2290809079672">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="f2ecd4887cf14f108d95a47d0d27fdea"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="67371679e78f4064894a2836d1ae9e81"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="fa977175fd7a4da9bb59782421e8f3f1"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#2ffe701c5544414ea0d2290809079672) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="eea912115c0d4462b9d8427626421171"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="2e5506369c16484a9a3dc66cfb507c9e" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="6df7a46e5efe4067bd659f26c05d9dd5" transform="matrix(1,0,0,1,457,206)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="0a6efd2a96194eb0a98ef7901796bcb6">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="6aa231b0dcd6407a846159aa3d849858"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="d884590fb2a849c5b7daeb942fdff687"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="05f673da709548f7b3bc129b5c7bfd06"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#0a6efd2a96194eb0a98ef7901796bcb6) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="14ae596dfd3845d09ed6fca9833b802b"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="b68aed2474ee46508fe9da1013242ed1" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="396a243062dc4571846c4bebb50ee2bc" transform="matrix(1,0,0,1,458,166)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="4f97de86794f46a3b796542b6e678d52">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="49409efaa35446d095297fdc8bae9dcc"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="d651d612f91d42098b9c54680387ff5d"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="4fba6b18f70b4fc09203ef2fb3041a34"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#4f97de86794f46a3b796542b6e678d52) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="ba9ee6f1af914c2b961313097b5a7e39"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="ecc8ab745454489f8b8771dcd4152715" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="6d251d7eafba4fdcbc3415725c4bde25" transform="matrix(1,0,0,1,457,246)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="8d9e6e78f5d84a6eb8eb605b89ed8dd4">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="b4f5e46db65b4a79804100c4f3e3afe3"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="0cd7ff4c76c74b7181353bbe8813ee45"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="16c3efbb316b4d438613cfa0470a2948"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#8d9e6e78f5d84a6eb8eb605b89ed8dd4) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="2b0c9a270e8b429997778299d3b06452"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="8f98ae9f597e4e93aa319363418f785f" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="248cfdad49be45aeadacfcbc742e4a0a" transform="matrix(1,0,0,1,457,287)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="af1ff7e7bac341dd9aef9d70126598a3">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="9a08cb8b5b634816abbb54aef08116c6"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="9cc9f6a3de244535b61409d46cf59acd"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="a1efb570b8294f869c91b60adbce69cb"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#af1ff7e7bac341dd9aef9d70126598a3) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="a1902bba0b644360a793a1953b633854"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="98dbe4fead4044b6823fbff43bdbbff9" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="daedb56336b84331af377084a154589e" transform="matrix(1,0,0,1,457,328)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="21f3775e38294766a950e7bfda4c6f1f">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="095e1b8de73e4589a08a59ecf416527f"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="2e9bd40cac10421f85329a0dd0e066dc"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="cd437d73d8704565bfcdea2d001b62dc"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#21f3775e38294766a950e7bfda4c6f1f) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="c72d63fcb6224327bfe20c9d192e6f42"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="0b3fd06e7ef841399d12ee2bc8061de6" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="42c3e13bafd94430a984140234932aa5" transform="matrix(1,0,0,1,457,369)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="2e32ba8fa9d841a7a1b1186638b29403">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="bb06aa756c3146de8d2cec0d1850f782"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="fb2be08ce82a44afb9bdee02dd5584bb"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="e61345c0d06c4d198fdced12a4bc45c5"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#2e32ba8fa9d841a7a1b1186638b29403) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="541efbf4b1584ec0ac1ef78ec8746d47"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="78a1efd98c774fce91d8dcefb17afe61" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="c9f7191584d54071a0a0802cb2bab1e0" transform="matrix(1,0,0,1,457,409)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="2c8a4099dd9a4f1bb38031183a22c19c">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="97500431a3c54578beb9517d1caa20c5"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="2d440e907b564bca80a20bcfe1c711b7"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="5fc20e0ac07e430cb29bf03057d3eee6"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#2c8a4099dd9a4f1bb38031183a22c19c) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="7d39fa169a5a4663a01073bbfec02a20"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="bb78ac9f50534dfdb15f5b569e13c013" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="2caf5b2eca8e4e1091b45716bc187f55" transform="matrix(1,0,0,1,457,450)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="9a96d6cc0868419980980d4bc14521c0">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="df65f947b09a4428b0a78a34ba53f930"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="b9462e2e49ae4920b22500b4dd1deeae"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="1b8c71563dde44559b40edc58cc15401"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#9a96d6cc0868419980980d4bc14521c0) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="e7bf2e56e55c4b5b8d8f35044c9e72e1"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="576e06c9fee24b2a952f9cd169da1462" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="67bd4b893b9747508354b75096d3e2e5" transform="matrix(1,0,0,1,457,491)"><p:metadata><p:property name="box"><![CDATA[55,38]]></p:property><p:property name="buttonText"><![CDATA[1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="930e1a4a0cfe4d7a8bb33ffceb139027">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="17b87f49ed3e43b3b7bede817f31952c"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="00f06ba7056c45e8885a5a222f79d00b"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="c1e3b7b867094cadac5ecbd5bf5ed6da"/>
+                </linearGradient>
+            </defs>
+            <rect width="54" height="37" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#930e1a4a0cfe4d7a8bb33ffceb139027) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="568450a7bb3148bc83feedd16e302186"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="15757b0a8cce4f68bc24218bba3af185" transform="translate(-7,2)">1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="5f8777357b4945b583d2844d2d366d43" transform="matrix(1,0,0,1,156,529)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[Salvar]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="fe884145801043018c626630908aca02">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="b9ccddf796e848848643259a76ffcdf4"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="b411de010c3348bda0237bddc83a1917"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="d77d00b109fa45cab9c14ed3d5230f65"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#fe884145801043018c626630908aca02&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="90e96108c33c40a1bab456cd5d5cf676"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="1e58329b4a80421b8a4ed14b40e4abbb" transform="translate(-2,-5)">Salvar</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="7b5bcbf48ed6445f8106d38759729de4" transform="matrix(1,0,0,1,277,529)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[Menu Principal]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="6fe5527c97914090beff5c2ae0644f7c">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="9919d80083484791a07a8849e3e9a88e"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="57eb47a1a3d64303afabe989d4a8ba97"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="4f47706cbd0c4b22958be93cecb55e7b"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(#6fe5527c97914090beff5c2ae0644f7c) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="3f781d0b67d74d6f928216f3d8eb5c9c"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="bf96be36313b4ed5a5d2df48338a00f8" transform="translate(-25,-5)">Menu Principal</text>
+        </g></Content></Page></Pages></Document>
