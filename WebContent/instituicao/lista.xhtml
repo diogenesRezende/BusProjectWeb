@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<ui:decorate template="../index.xhtml">
+	<ui:define name="centro">
+		<h:form>
+
+			<p:scrollPanel styleClass=".ui-scrollpanel-container">
+				<p:panel header="Instituições" closable="true">
+					<p:dataTable value="#{instituicaoCtrl.tablemodel}" var="lista">
+
+						<p:column headerText="ID" style="text-align: center; width:20px;">
+							<p:outputLabel value="#{lista.id}" />
+						</p:column>
+
+						<p:column headerText="Nome"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.nome}" />
+						</p:column>
+
+						<p:column headerText="Endereço"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value=" #{lista.endereco}" />
+						</p:column>
+
+						<p:column headerText="Numero"
+							style="text-align: center; width:25px;">
+							<p:outputLabel value=" #{lista.num_end}" />
+						</p:column>
+
+						<p:column headerText="Bairro"
+							style="text-align: center; width:100px;">
+							<p:outputLabel value=" #{lista.bairro}" />
+						</p:column>
+
+						<p:column headerText="Cidade"
+							style="text-align: center; width:100px;">
+							<p:outputLabel value=" #{lista.cidade}" />
+						</p:column>
+
+						<p:column headerText="Telefone"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value=" #{lista.telefone}" />
+						</p:column>
+
+						<p:column headerText="Email"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value=" #{lista.email}" />
+						</p:column>
+
+						<p:column headerText="*" style="text-align: center; width:25px;"
+							resizable="false">
+							<p:commandLink action="#{instituicaoCtrl.telaEditar()}"
+								actionListener="#{instituicaoCtrl.selecionarInstituicao()}">
+								<p:graphicImage value="/img/editar.png" />
+							</p:commandLink>
+						</p:column>
+
+						<p:column headerText="*" style="text-align: center; width:25px;"
+							resizable="false">
+							<p:commandLink action="#{instituicaoCtrl.telaExcluir()}"
+								actionListener="#{instituicaoCtrl.selecionarInstituicao()}">
+								<p:graphicImage value="/img/excluir.png" />
+							</p:commandLink>
+						</p:column>
+
+					</p:dataTable>
+
+				</p:panel>
+			</p:scrollPanel>
+		</h:form>
+	</ui:define>
+</ui:decorate>
+</html>

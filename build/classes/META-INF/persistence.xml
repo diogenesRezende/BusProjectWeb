@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	version="1.0">
+	<persistence-unit name="PERSISTENCE_BUSPROJECT"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<properties>
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+
+			<!--configuracao da conexao com o banco -->
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"></property>
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/busproject"></property>
+			<property name="javax.persistence.jdbc.user" value="postgres"></property>
+			<property name="javax.persistence.jdbc.password" value="2289cpm22"></property>
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true"/>
+		</properties>
+	</persistence-unit>
+</persistence>
+

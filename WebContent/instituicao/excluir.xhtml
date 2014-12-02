@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<ui:decorate template="../index.xhtml">
+	<ui:define name="centro">
+		<h:form>
+			<center>
+				<p:panel header="Questão?" style="width: 400px;">
+					<p:outputLabel value="Deseja realmente excluir " />
+					<p:outputLabel value="#{instituicaoCtrl.to.nome}"
+						style="color: #ff0000;" />
+					<p:outputLabel value="?" />
+					<br />
+					<p:separator style="width: 100%" />
+					<br />
+					<p:commandButton value="Excluir"
+						action="#{instituicaoCtrl.excluiInstituicao()}" />
+					<p:commandButton value="Cancelar"
+						action="#{instituicaoCtrl.telaListar()}" />
+				</p:panel>
+			</center>
+		</h:form>
+	</ui:define>
+</ui:decorate>
+
+</html>

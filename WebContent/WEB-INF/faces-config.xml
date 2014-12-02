@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+	<managed-bean>
+		<managed-bean-name>instituicaoCtrl</managed-bean-name>
+		<managed-bean-class>br.edu.si6.lab6.controller.InstituicaoCtrl</managed-bean-class>
+		<managed-bean-scope>view</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>motoristaCtrl</managed-bean-name>
+		<managed-bean-class>br.edu.si6.lab6.controller.MotoristaCtrl</managed-bean-class>
+		<managed-bean-scope>view</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>alunoCtrl</managed-bean-name>
+		<managed-bean-class>br.edu.si6.lab6.controller.AlunoCtrl</managed-bean-class>
+		<managed-bean-scope>view</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>viagemCtrl</managed-bean-name>
+		<managed-bean-class>br.edu.si6.lab6.controller.ViagemCtrl</managed-bean-class>
+		<managed-bean-scope>view</managed-bean-scope>
+	</managed-bean>
+
+</faces-config>

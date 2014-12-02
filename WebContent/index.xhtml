@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<title>BusProject Web</title>
+</h:head>
+<h:body>
+	<p:layout fullPage="true">
+		<p:layoutUnit position="west" size="180">
+			<h:form>
+				<p:menu>
+					<p:submenu label="Aluno">
+						<p:menuitem value="Novo Aluno" action="#{alunoCtrl.telaNovo()}" />
+						<p:menuitem value="Listar Aluno"
+							action="#{alunoCtrl.telaListar() }" />
+					</p:submenu>
+					<p:submenu label="Instituição">
+						<p:menuitem value="Nova Instituição"
+							action="#{instituicaoCtrl.telaNovo()}"
+							actionListener="#{instituicaoCtrl.novaInstituicao()}" />
+						<p:menuitem value="Listar Instituições"
+							action="#{instituicaoCtrl.telaListar()}" />
+					</p:submenu>
+					<p:submenu label="Motorista">
+						<p:menuitem value="Novo Motorista"
+							action="#{motoristaCtrl.telaNovo()}" />
+						<p:menuitem value="Listar Motorista"
+							action="#{motoristaCtrl.telaListar()}" />
+					</p:submenu>
+					<p:submenu label="Viagem">
+						<p:menuitem value="Nova Viagem" action="novoviagem" />
+						<p:menuitem value="Listar Viagem" action="listarviagem" />
+					</p:submenu>
+				</p:menu>
+			</h:form>
+		</p:layoutUnit>
+		<p:layoutUnit position="center">
+			<ui:insert name="centro">
+				<center>
+					<p:outputLabel value="BusProject Web" />
+				</center>
+
+			</ui:insert>
+		</p:layoutUnit>
+
+	</p:layout>
+</h:body>
+</html>
+

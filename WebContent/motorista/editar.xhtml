@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core">
+<ui:decorate template="../index.xhtml">
+	<ui:define name="centro">
+		<h:form>
+			<p:panel header="Editar Motorista" style="width:450px;">
+				<p:fieldset legend=" Dados Motorista" toggleable="true"
+					toggleSpeed="10">
+					<center>
+						<h:form>
+							<p:growl id="growl" />
+							<h:panelGrid columns="3" id="grid">
+
+								<p:outputLabel value="ID:" />
+								<p:inputText id="id" value="#{motoristaCtrl.to.id}"
+									disabled="true" />
+								<p:message for="nome" />
+
+								<p:outputLabel value="Nome:" />
+								<p:inputText id="nome" value="#{motoristaCtrl.to.nome}"
+									required="true" requiredMessage="Obrigatório!" />
+								<p:message for="nome" />
+
+								<p:outputLabel value="Celular:" />
+								<p:inputMask mask="(99) 9999-9999" id="celular"
+									value="#{motoristaCtrl.to.celular}" required="true"
+									requiredMessage="Obrigatório!" />
+								<p:message for="celular" />
+
+								<p:outputLabel value="Categoria CNH:" />
+								<p:selectOneMenu id="cnh"
+									value="#{motoristaCtrl.to.categoriaCnh}" required="true"
+									requiredMessage="Obrigatório!">
+									<f:selectItem itemDisabled="true" itemLabel="UF" />
+									<f:selectItem itemLabel="D" itemValue="D" />
+									<f:selectItem itemLabel="E" itemValue="E" />
+								</p:selectOneMenu>
+								<p:message for="cnh" />
+
+							</h:panelGrid>
+
+							<p:separator style="width: 100%;height: 5px" />
+
+							<p:commandButton value="Editar" update="grid, growl"
+								action="#{motoristaCtrl.editaMotorista()}" />
+							<p:commandButton value="Limpar" type="reset" />
+
+						</h:form>
+					</center>
+				</p:fieldset>
+			</p:panel>
+		</h:form>
+	</ui:define>
+</ui:decorate>
+
+</html>
