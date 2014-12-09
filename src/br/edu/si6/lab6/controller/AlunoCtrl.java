@@ -1,10 +1,9 @@
 package br.edu.si6.lab6.controller;
 
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
 import javax.faces.model.DataModel;
 import javax.faces.model.ListDataModel;
@@ -16,14 +15,19 @@ import br.edu.si6.lab6.dao.AlunoDAO;
 import br.edu.si6.lab6.dao.InstituicaoDAO;
 import br.edu.si6.lab6.orm.HibernateUtil;
 
-public class AlunoCtrl implements Serializable {
-	private static final long serialVersionUID = 1L;
+@ManagedBean
+public class AlunoCtrl {
 
 	private AlunoTO to;
 	private AlunoDAO dao;
 	private DataModel tablemodel;
 	private final EntityManager em = HibernateUtil.getEntityManager();
 	private List<InstituicaoTO> intituicoes;
+
+	public AlunoCtrl() {
+		to = new AlunoTO();
+		dao = new AlunoDAO(this.em);
+	}
 
 	public List<InstituicaoTO> getIntituicoes() {
 		InstituicaoDAO inst = new InstituicaoDAO(em);
@@ -35,10 +39,6 @@ public class AlunoCtrl implements Serializable {
 		this.intituicoes = intituicoes;
 	}
 
-	public AlunoCtrl() {
-		to = new AlunoTO();
-	}
-
 	public AlunoTO getTo() {
 		return to;
 	}
@@ -48,7 +48,7 @@ public class AlunoCtrl implements Serializable {
 	}
 
 	public DataModel getTablemodel() {
-		dao = new AlunoDAO(this.em);
+
 		tablemodel = new ListDataModel(dao.getAll());
 		return tablemodel;
 	}

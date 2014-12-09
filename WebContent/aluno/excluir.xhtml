@@ -10,14 +10,13 @@
 			<center>
 				<p:panel header="Questão?" style="width: 400px;">
 					<p:outputLabel value="Deseja realmente excluir " />
-					<p:outputLabel value="#{instituicaoCtrl.to.nome}"
-						style="color: #ff0000;" />
+					<p:outputLabel value="#{alunoCtrl.to.nome}" style="color: #ff0000;" />
 					<p:outputLabel value="?" />
 					<br />
 					<p:separator style="width: 100%" />
 					<br />
 					<p:commandButton value="Excluir"
-						action="#{alunoCtrl.excluiAluno())}" />
+						action="#{alunoCtrl.excluiAluno()}" />
 					<p:commandButton value="Cancelar"
 						action="#{alunoCtrl.telaListar()}" />
 				</p:panel>

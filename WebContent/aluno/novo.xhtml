@@ -7,57 +7,49 @@
 	xmlns:f="http://java.sun.com/jsf/core">
 <ui:decorate template="../index.xhtml">
 	<ui:define name="centro">
-		<h:form>
-			<p:panel header="Cadastro Aluno" style="width:500px;">
-				<p:fieldset legend=" Dados Aluno" toggleable="true" toggleSpeed="10">
-					<center>
-						<h:form>
-							<p:growl id="growl" />
-							<h:panelGrid columns="3" id="grid">
+		<center>
+			<h:form>
+				<p:panel header="Cadastro Aluno" style="width:500px;">
+					<p:fieldset legend=" Dados Aluno" toggleable="true"
+						toggleSpeed="10">
+						<p:growl id="growl" />
+						<h:panelGrid columns="2" id="grid">
 
-								<p:outputLabel value="Nome:" />
-								<p:inputText id="nome" value="#{alunoCtrl.to.nome}"
-									required="true" requiredMessage="Obrigatório!" />
-								<p:message for="nome" />
+							<p:outputLabel value="Nome:" />
+							<p:inputText id="nome" value="#{alunoCtrl.to.nome}"
+								required="true" requiredMessage="Obrigatório!" />
 
-								<p:outputLabel value="Endereço:" />
-								<p:inputText id="endereco" value="#{alunoCtrl.to.endereco}"
-									required="true" requiredMessage="Obrigatório!" />
-								<p:message for="endereco" />
+							<p:outputLabel value="Endereço:" />
+							<p:inputText id="endereco" value="#{alunoCtrl.to.endereco}"
+								required="true" requiredMessage="Obrigatório!" />
 
-								<p:outputLabel value="Número" />
-								<p:inputMask id="numero" mask="9999"
-									value="#{alunoCtrl.to.num_end}" required="true"
-									requiredMessage="Obrigatório!" />
-								<p:message for="numero" />
+							<p:outputLabel value="Número" />
+							<p:inputMask id="numero" mask="9999"
+								value="#{alunoCtrl.to.num_end}" required="true"
+								requiredMessage="Obrigatório!" />
 
-								<p:outputLabel value="Celular:" />
-								<p:inputMask mask="(99) 9999-9999" id="celular"
-									value="#{alunoCtrl.to.celular}" required="true"
-									requiredMessage="Obrigatório!" />
-								<p:message for="celular" />
+							<p:outputLabel value="Celular:" />
+							<p:inputMask mask="(99) 9999-9999" id="celular"
+								value="#{alunoCtrl.to.celular}" required="true"
+								requiredMessage="Obrigatório!" />
 
-								<p:outputLabel value="Instituição:" />
-								<p:selectOneMenu id="escola" value="#{alunoCtrl.to.instituicao}">
-									<f:selectItem itemLabel="Select One" itemValue="" />
-									<f:selectItems value="#{alunoCtrl.intituicoes}" var="inst"
-										itemLabel="#{inst.nome}" itemValue="#{inst}" />
-								</p:selectOneMenu>
-								<p:message for="escola" />
+							<p:outputLabel value="Instituição:" />
+							<p:selectOneMenu id="escola" value="#{alunoCtrl.to.instituicao}">
+								<f:selectItem itemLabel="Select One" itemValue="" />
+								<f:selectItems value="#{alunoCtrl.intituicoes}" var="inst"
+									itemLabel="#{inst.nome}" itemValue="#{inst}" />
+							</p:selectOneMenu>
+						</h:panelGrid>
 
-							</h:panelGrid>
+						<p:separator style="width: 100%;height: 5px" />
 
-							<p:separator style="width: 100%;height: 5px" />
-
-							<p:commandButton value="Salvar" update="grid, growl"
-								action="#{alunoCtrl.salvaAluno()}" />
-							<p:commandButton value="Limpar" type="reset" />
-
-						</h:form>
-					</center>
-				</p:fieldset>
-			</p:panel>
-		</h:form>
+						<p:commandButton value="Salvar" update="grid, growl"
+							action="#{alunoCtrl.salvaAluno()}" />
+						<p:commandButton value="Limpar" type="reset" />
+					</p:fieldset>
+				</p:panel>
+			</h:form>
+		</center>
 	</ui:define>
 </ui:decorate>
 </html>
