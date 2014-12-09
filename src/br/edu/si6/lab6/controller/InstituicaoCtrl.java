@@ -1,10 +1,7 @@
 package br.edu.si6.lab6.controller;
 
-import java.io.Serializable;
-
-import javax.annotation.ManagedBean;
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
 import javax.faces.model.DataModel;
 import javax.faces.model.ListDataModel;
@@ -15,10 +12,8 @@ import br.edu.si6.lab6.dao.InstituicaoDAO;
 import br.edu.si6.lab6.orm.HibernateUtil;
 
 @ManagedBean
-@SessionScoped
-public class InstituicaoCtrl implements Serializable {
+public class InstituicaoCtrl {
 
-	private static final long serialVersionUID = 1L;
 	private InstituicaoTO to;
 	private InstituicaoDAO dao;
 	private DataModel tablemodel;
@@ -26,6 +21,7 @@ public class InstituicaoCtrl implements Serializable {
 
 	public InstituicaoCtrl() {
 		to = new InstituicaoTO();
+		dao = new InstituicaoDAO(this.em);
 	}
 
 	public InstituicaoTO getTo() {
@@ -37,7 +33,6 @@ public class InstituicaoCtrl implements Serializable {
 	}
 
 	public DataModel<InstituicaoTO> getTablemodel() {
-		dao = new InstituicaoDAO(this.em);
 		tablemodel = new ListDataModel<InstituicaoTO>(dao.getAll());
 		System.out.println("entrou na condiçao!");
 		return tablemodel;
@@ -73,7 +68,6 @@ public class InstituicaoCtrl implements Serializable {
 	}
 
 	public String salvaIntituicao() {
-		dao = new InstituicaoDAO(this.em);
 		if (dao.salvar(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -85,7 +79,6 @@ public class InstituicaoCtrl implements Serializable {
 	}
 
 	public String editaIntituicao() {
-		dao = new InstituicaoDAO(this.em);
 		if (dao.update(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -97,7 +90,6 @@ public class InstituicaoCtrl implements Serializable {
 	}
 
 	public String excluiInstituicao() {
-		dao = new InstituicaoDAO(this.em);
 		if (dao.delete(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(

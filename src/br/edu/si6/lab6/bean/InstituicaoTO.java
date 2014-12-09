@@ -1,6 +1,5 @@
 package br.edu.si6.lab6.bean;
 
-import java.io.Serializable;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -14,9 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "instituicao")
-public class InstituicaoTO implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public class InstituicaoTO {
 
 	@SequenceGenerator(name = "sequence", sequenceName = "seq_instituicao", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequence")
@@ -29,6 +26,23 @@ public class InstituicaoTO implements Serializable {
 	private String endereco = null;
 	private String bairro = null;
 	private int num_end = 0;
+
+	public InstituicaoTO(int id, String nome, String email, String telefone,
+			String cidade, String endereco, String bairro, int num_end) {
+
+		this.id = id;
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+		this.cidade = cidade;
+		this.endereco = endereco;
+		this.bairro = bairro;
+		this.num_end = num_end;
+
+	}
+
+	public InstituicaoTO() {
+	}
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "instituicao", targetEntity = AlunoTO.class)
 	private Set<AlunoTO> aluno;
@@ -108,18 +122,6 @@ public class InstituicaoTO implements Serializable {
 	@Override
 	public String toString() {
 		return nome;
-	}
-
-	@Override
-	public int hashCode() {
-
-		return id;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
-		return super.equals(obj);
 	}
 
 }

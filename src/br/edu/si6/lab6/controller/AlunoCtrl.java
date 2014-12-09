@@ -84,7 +84,6 @@ public class AlunoCtrl {
 	}
 
 	public String salvaAluno() {
-		dao = new AlunoDAO(this.em);
 		if (dao.salvar(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -96,7 +95,6 @@ public class AlunoCtrl {
 	}
 
 	public String editaAluno() {
-		dao = new AlunoDAO(this.em);
 		if (dao.update(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -108,7 +106,6 @@ public class AlunoCtrl {
 	}
 
 	public String excluiAluno() {
-		dao = new AlunoDAO(this.em);
 		if (dao.delete(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
