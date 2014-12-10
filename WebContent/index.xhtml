@@ -31,8 +31,9 @@
 							action="#{motoristaCtrl.telaListar()}" />
 					</p:submenu>
 					<p:submenu label="Viagem">
-						<p:menuitem value="Nova Viagem" action="novoviagem" />
-						<p:menuitem value="Listar Viagem" action="listarviagem" />
+						<p:menuitem value="Nova Viagem" action="#{viagemCtrl.telaNovo()}" />
+						<p:menuitem value="Listar Viagem"
+							action="#{viagemCtrl.telaListar()}" />
 					</p:submenu>
 				</p:menu>
 			</h:form>

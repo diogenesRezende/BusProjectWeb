@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<ui:decorate template="../index.xhtml">
+	<ui:define name="centro">
+		<h:form>
+
+			<p:scrollPanel styleClass=".ui-scrollpanel-container">
+			
+				<p:panel header="Motoristas" closable="true">
+					<p:dataTable value="#{motoristaCtrl.tablemodel}" var="lista">
+
+						<p:column headerText="ID" style="text-align: center; width:20px;">
+							<p:outputLabel value="#{lista.id}" />
+						</p:column>
+
+						<p:column headerText="Nome"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.nome}" />
+						</p:column>
+						
+						<p:column headerText="Celular"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.celular}" />
+						</p:column>
+						
+						<p:column headerText="Categoria CNH"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.categoriaCnh}" />
+						</p:column>
+
+						
+						<p:column headerText="*" style="text-align: center; width:25px;"
+							resizable="false">
+							<p:commandLink action="#{motoristaCtrl.telaEditar()}"
+								actionListener="#{motoristaCtrl.selecionarMotorista()}">
+								<p:graphicImage value="/img/editar.png" />
+							</p:commandLink>
+						</p:column>
+
+						<p:column headerText="*" style="text-align: center; width:25px;"
+							resizable="false">
+							<p:commandLink action="#{motoristaCtrl.telaExcluir()}"
+								actionListener="#{motoristaCtrl.selecionarMotorista()}">
+								<p:graphicImage value="/img/excluir.png" />
+							</p:commandLink>
+						</p:column>
+
+					</p:dataTable>
+
+				</p:panel>
+			</p:scrollPanel>
+		</h:form>
+	</ui:define>
+</ui:decorate>
+</html>

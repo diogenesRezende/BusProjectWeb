@@ -16,17 +16,17 @@ import br.edu.si6.lab6.orm.HibernateUtil;
 
 @ManagedBean
 @ViewScoped
-public class MotoristaCtrl implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public class MotoristaCtrl {
 
 	private MotoristaTO to;
 	private MotoristaDAO dao;
 	private DataModel tablemodel;
-	private final EntityManager em = HibernateUtil.getEntityManager();
+	private final EntityManager em;
 
 	public MotoristaCtrl() {
+		em = HibernateUtil.getEntityManager();
 		to = new MotoristaTO();
+		dao = new MotoristaDAO(em);
 	}
 
 	public MotoristaTO getTo() {
@@ -74,7 +74,6 @@ public class MotoristaCtrl implements Serializable {
 	}
 
 	public String salvaMotorista() {
-		dao = new MotoristaDAO(this.em);
 		if (dao.salvar(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -86,7 +85,6 @@ public class MotoristaCtrl implements Serializable {
 	}
 
 	public String editaMotorista() {
-		dao = new MotoristaDAO(this.em);
 		if (dao.update(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(
@@ -98,7 +96,6 @@ public class MotoristaCtrl implements Serializable {
 	}
 
 	public String excluiMotorista() {
-		dao = new MotoristaDAO(this.em);
 		if (dao.delete(to)) {
 			FacesContext contexto = FacesContext.getCurrentInstance();
 			contexto.addMessage(null, new FacesMessage(

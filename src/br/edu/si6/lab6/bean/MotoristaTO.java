@@ -29,6 +29,16 @@ public class MotoristaTO implements Serializable {
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "motorista", targetEntity = ViagemTO.class)
 	private Set<ViagemTO> viagem;
 
+	public MotoristaTO(int id, String nome, String celular, String categoriaCnh) {
+		this.id = id;
+		this.nome = nome;
+		this.celular = celular;
+		this.categoriaCnh = categoriaCnh;
+	}
+
+	public MotoristaTO() {
+	}
+
 	public Set<ViagemTO> getViagem() {
 		return viagem;
 	}
@@ -81,7 +91,6 @@ public class MotoristaTO implements Serializable {
 
 	@Override
 	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
 		return super.equals(obj);
 	}
 

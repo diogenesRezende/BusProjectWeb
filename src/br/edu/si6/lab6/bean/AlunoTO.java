@@ -1,5 +1,6 @@
 package br.edu.si6.lab6.bean;
 
+import java.io.Serializable;
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -15,7 +16,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "aluno")
-public class AlunoTO {
+public class AlunoTO implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	@SequenceGenerator(name = "sequence", sequenceName = "seq_aluno", allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequence")
@@ -104,6 +107,16 @@ public class AlunoTO {
 	@Override
 	public String toString() {
 		return nome;
+	}
+
+	@Override
+	public int hashCode() {
+		return id;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return super.equals(obj);
 	}
 
 }
