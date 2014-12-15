@@ -9,42 +9,40 @@
 	<ui:define name="centro">
 		<center>
 			<h:form>
-				<p:panel header="Editar Motorista" style="width:450px;">
-					<p:fieldset legend=" Dados Motorista" toggleable="true"
-						toggleSpeed="10">
+				<p:panel header="Cadastro Viagem" style="width:450px;">
+					<p:fieldset legend=" Dados Viagem" toggleable="true">
 						<p:growl id="growl" />
 						<h:panelGrid columns="2" id="grid">
 
-							<p:outputLabel value="ID:" />
-							<p:inputText id="id" value="#{motoristaCtrl.to.id}"
-								disabled="true" />
+							<p:outputLabel value="Data:" />
+							<p:calendar id="data" required="true"
+								value="#{viagemCtrl.to.data}" requiredMessage="Obrigatório!" />
 
-							<p:outputLabel value="Nome:" />
-							<p:inputText id="nome" value="#{motoristaCtrl.to.nome}"
+							<p:outputLabel value="Cidade Origem:" />
+							<p:inputText id="origem" value="#{viagemCtrl.to.origem}"
 								required="true" requiredMessage="Obrigatório!" />
 
-							<p:outputLabel value="Celular:" />
-							<p:inputMask mask="(99) 9999-9999" id="celular"
-								value="#{motoristaCtrl.to.celular}" required="true"
-								requiredMessage="Obrigatório!" />
+							<p:outputLabel value="Cidade Destino:" />
+							<p:inputText id="destino" value="#{viagemCtrl.to.destino}"
+								required="true" requiredMessage="Obrigatório!" />
 
-							<p:outputLabel value="Categoria CNH:" />
-							<p:selectOneMenu id="cnh"
-								value="#{motoristaCtrl.to.categoriaCnh}" required="true"
-								requiredMessage="Obrigatório!">
-								<f:selectItem itemDisabled="true" itemLabel="UF" />
-								<f:selectItem itemLabel="D" itemValue="D" />
-								<f:selectItem itemLabel="E" itemValue="E" />
+							<p:outputLabel value="Motorista:" />
+							<p:selectOneMenu id="escola" value="#{viagemCtrl.to.motorista}">
+								<f:selectItem itemLabel="Select One" itemValue="" />
+								<f:selectItems value="#{viagemCtrl.motoristas}" var="mot"
+									itemLabel="#{mot.nome}" itemValue="#{inst}" />
 							</p:selectOneMenu>
+
 						</h:panelGrid>
 						<p:separator style="width: 100%;height: 5px" />
-						<p:commandButton value="Editar" update="grid, growl"
-							action="#{motoristaCtrl.editaMotorista()}" />
+						<p:commandButton value="Salvar" update="grid, growl"
+							action="#{viagemCtrl.salvaViagem()}" />
 						<p:commandButton value="Limpar" type="reset" />
 					</p:fieldset>
 				</p:panel>
 			</h:form>
 		</center>
+
 	</ui:define>
 </ui:decorate>
 

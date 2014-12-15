@@ -15,7 +15,6 @@ import br.edu.si6.lab6.dao.MotoristaDAO;
 import br.edu.si6.lab6.orm.HibernateUtil;
 
 @ManagedBean
-@ViewScoped
 public class MotoristaCtrl {
 
 	private MotoristaTO to;
@@ -47,7 +46,7 @@ public class MotoristaCtrl {
 		this.tablemodel = tablemodel;
 	}
 
-	public void novaInstituicao() {
+	public void novoMotorista() {
 		to = new MotoristaTO();
 	}
 

@@ -5,6 +5,8 @@
  */
 package br.edu.si6.lab6.controller;
 
+import java.util.List;
+
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
@@ -12,7 +14,9 @@ import javax.faces.model.DataModel;
 import javax.faces.model.ListDataModel;
 import javax.persistence.EntityManager;
 
+import br.edu.si6.lab6.bean.MotoristaTO;
 import br.edu.si6.lab6.bean.ViagemTO;
+import br.edu.si6.lab6.dao.MotoristaDAO;
 import br.edu.si6.lab6.dao.ViagemDAO;
 import br.edu.si6.lab6.orm.HibernateUtil;
 
@@ -23,11 +27,22 @@ public class ViagemCtrl {
 	private ViagemDAO dao;
 	private DataModel tablemodel;
 	private final EntityManager em;
+	private List<MotoristaTO> motoristas;
 
 	public ViagemCtrl() {
 		em = HibernateUtil.getEntityManager();
 		to = new ViagemTO();
 		dao = new ViagemDAO(em);
+	}
+
+	public List<MotoristaTO> getMotoristas() {
+		MotoristaDAO dao = new MotoristaDAO(em);
+		motoristas = dao.getAll();
+		return motoristas;
+	}
+
+	public void setMotoristas(List<MotoristaTO> motoristas) {
+		this.motoristas = motoristas;
 	}
 
 	public ViagemTO getTo() {

@@ -26,12 +26,14 @@
 					</p:submenu>
 					<p:submenu label="Motorista">
 						<p:menuitem value="Novo Motorista"
-							action="#{motoristaCtrl.telaNovo()}" />
+							action="#{motoristaCtrl.telaNovo()}"
+							actionListener="#{motoristaCtrl.novoMotorista()}" />
 						<p:menuitem value="Listar Motorista"
 							action="#{motoristaCtrl.telaListar()}" />
 					</p:submenu>
 					<p:submenu label="Viagem">
-						<p:menuitem value="Nova Viagem" action="#{viagemCtrl.telaNovo()}" />
+						<p:menuitem value="Nova Viagem" action="#{viagemCtrl.telaNovo()}"
+							actionListener="#{viagemCtrl.novaViagem()}" />
 						<p:menuitem value="Listar Viagem"
 							action="#{viagemCtrl.telaListar()}" />
 					</p:submenu>

@@ -9,34 +9,38 @@
 		<h:form>
 
 			<p:scrollPanel styleClass=".ui-scrollpanel-container">
-			
-				<p:panel header="Motoristas" closable="true">
-					<p:dataTable value="#{motoristaCtrl.tablemodel}" var="lista">
+
+				<p:panel header="Viagens" closable="true">
+					<p:dataTable value="#{viagemCtrl.tablemodel}" var="lista">
 
 						<p:column headerText="ID" style="text-align: center; width:20px;">
 							<p:outputLabel value="#{lista.id}" />
 						</p:column>
 
-						<p:column headerText="Nome"
+						<p:column headerText="Data"
 							style="text-align: center; width:200px;">
-							<p:outputLabel value="#{lista.nome}" />
-						</p:column>
-						
-						<p:column headerText="Celular"
-							style="text-align: center; width:200px;">
-							<p:outputLabel value="#{lista.celular}" />
-						</p:column>
-						
-						<p:column headerText="Categoria CNH"
-							style="text-align: center; width:200px;">
-							<p:outputLabel value="#{lista.categoriaCnh}" />
+							<p:outputLabel value="#{lista.data}" />
 						</p:column>
 
-						
+						<p:column headerText="Origem"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.origem}" />
+						</p:column>
+
+						<p:column headerText="Destino"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.destino}" />
+						</p:column>
+
+						<p:column headerText="Motorista"
+							style="text-align: center; width:200px;">
+							<p:outputLabel value="#{lista.motorista}" />
+						</p:column>
+
 						<p:column headerText="*" style="text-align: center; width:25px;"
 							resizable="false">
-							<p:commandLink action="#{motoristaCtrl.telaEditar()}"
-								actionListener="#{motoristaCtrl.selecionarMotorista()}">
+							<p:commandLink action="#{viagemCtrl.telaEditar()}"
+								actionListener="#{viagemCtrl.selecionarViagem()}">
 								<p:graphicImage value="/img/editar.png" />
 							</p:commandLink>
 						</p:column>

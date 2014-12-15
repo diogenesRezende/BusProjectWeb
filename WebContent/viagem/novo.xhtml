@@ -26,10 +26,17 @@
 							<p:inputText id="destino" value="#{viagemCtrl.to.destino}"
 								required="true" requiredMessage="Obrigatório!" />
 
+							<p:outputLabel value="Motorista:" />
+							<p:selectOneMenu id="escola" value="#{viagemCtrl.to.motorista}">
+								<f:selectItem itemLabel="Select One" itemValue="" />
+								<f:selectItems value="#{viagemCtrl.motoristas}" var="mot"
+									itemLabel="#{mot.nome}" itemValue="#{inst}" />
+							</p:selectOneMenu>
+
 						</h:panelGrid>
 						<p:separator style="width: 100%;height: 5px" />
 						<p:commandButton value="Salvar" update="grid, growl"
-							action="#{viagemCtrl.salvaViagem}" />
+							action="#{viagemCtrl.salvaViagem()}" />
 						<p:commandButton value="Limpar" type="reset" />
 					</p:fieldset>
 				</p:panel>
